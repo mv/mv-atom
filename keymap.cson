@@ -41,27 +41,42 @@
 #   'gT': 'pane:show-previous-item'
 
 'atom-text-editor':
+  # command palette
+  ', p': 'command-palette:toggle'
+  ', c': 'command-palette:toggle'
+  # file/buffer/symbols palette
+  ', b': 'fuzzy-finder:toggle-buffer-finder'
+  ', f': 'fuzzy-finder:toggle-file-finder'
+  ', g': 'fuzzy-finder:toggle-git-status-finder'
+  ', f s': 'symbols-view:toggle-file-symbols'
+  ', p s': 'symbols-view:toggle-project-symbols'
+
+  # others
+  ', u': 'encoding-selector:show'
+  ', g s': 'grammar-selector:show'
+  ', t v': 'tree-view:toggle'
+
+  ', g t': 'github:toggle-git-tab'
+  ', g o': 'open-on-github:file'
+  ', g h': 'open-on-github:history'
+  ', g c': 'open-on-github:copy-url'
+
+  # markdown preview
+  ', m p': 'keystroke ctrl-shift-m'
+
   # tab next/previous
   'gt': 'pane:show-next-item'
   'gT': 'pane:show-previous-item'
-  # command pallete
-  ', p': 'keystroke cmd-shift-p'
-  ', c': 'keystroke cmd-shift-p'
-  # file/buffer/tab pallete
-  ', f': 'keystroke cmd-p'
-  ', b': 'keystroke cmd-b'
-  ', t': 'keystroke cmd-t'
-  # tree view
-  ', t v': 'keystroke cmd-\\'
-  # git tab
-  ', g t': 'keystroke ctrl-shift-9'
-  # markdown preview
-  ', m p': 'keystroke ctrl-shift-m'
   # panel/split navigation
   'ctrl-h': 'keystroke ctrl-w h'
   'ctrl-l': 'keystroke ctrl-w l'
   'ctrl-j': 'keystroke ctrl-w j'
   'ctrl-k': 'keystroke ctrl-w k'
+  # folding
+  ', f 0': 'keystroke cmd-k cmd-1'
+  ', f 1': 'keystroke cmd-k cmd-1'
+  ', f 2': 'keystroke cmd-k cmd-2'
+  ', f 9': 'keystroke cmd-k cmd-9'
 
 'atom-text-editor.vim-mode-plus.normal-mode':
   # close window
@@ -69,4 +84,4 @@
   'Z Z': 'keystroke cmd-w'
   # select to the end of line
   'Y': 'keystroke y $'
-  
+  'K': 'keystroke d d p k J'
