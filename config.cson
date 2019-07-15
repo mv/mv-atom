@@ -14,5 +14,12 @@
     userId: "ec760885-d964-40ee-8740-306826d97f43"
   "markdown-preview":
     breakOnSingleNewline: true
+  "relative-numbers":
+    showAbsoluteNumbers: true
+    startAtOne: true
+    trueNumberCurrentLine: false
+  tabs:
+    addNewTabsAtEnd: true
+    enableVcsColoring: true
   welcome:
     showOnStartup: false
