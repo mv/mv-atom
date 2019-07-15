@@ -1,0 +1,18 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "wombat-dark-syntax"
+    ]
+  editor:
+    autoIndentOnPaste: false
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "ec760885-d964-40ee-8740-306826d97f43"
+  "markdown-preview":
+    breakOnSingleNewline: true
+  welcome:
+    showOnStartup: false
