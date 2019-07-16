@@ -1,5 +1,13 @@
 "*":
   core:
+    customFileTypes:
+      "source.ruby": [
+        "Vagrantfile"
+      ]
+    disabledPackages: [
+      "cursor-history"
+      "open-this"
+    ]
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
@@ -23,3 +31,10 @@
     enableVcsColoring: true
   welcome:
     showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: true
+    ignoreWhitespaceOnCurrentLine: true
+    removeTrailingWhitespace: true
+".makefile.source":
+  editor:
+    tabLength: 8
